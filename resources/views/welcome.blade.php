@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
       <!-- Bootstrap CSS -->
          <link rel="stylesheet" href={{url("/assets/css/bootstrap.rtl.min.css")}}>
@@ -46,14 +47,14 @@
 }
 
         .main-nav nav .navbar-nav .nav-item a{
-            font-size: 25px
+            font-size: 28px
         }
         .banner-img-one{
   
-            background-image: url("537.png");
+            background-image: url("Group 30.png");
         }
         .banner-area {
-            height: 700px;}
+            height: 750px;}
 
             .help-item .help-right p{
                 font-size: 21px;
@@ -103,16 +104,43 @@
 .my-float{
 	margin-top:16px;
 }
+.main-nav {
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.banner-item .banner-left a{
+    padding: 6px 20px ;
+    border:0px solid  #9f6023;
 
 
+}
 
+.main-btn{
+    color:aliceblue ;
+    background-color: #9f6023;
+    text-decoration: none;
+    font-size:2em ;
+    font-weight: 100;
+    display: inline-block ;  
+    margin-bottom: 70px 80px; 
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transition: 0.8s ease;
+}
 
-        
-    </style>
+.main-btn:hover{
+    color: #c6a269;
+    border:3px solid  #c6a269;
+    background-color:#c6a269 ;
+    transform: scale(1.1);
+}
+
+</style>
 
     <body>
+        
 
-        <!-- Preloader -->
+        <!-- Preloader --> 
         <div class="loader">
             <div class="d-table">
                 <div class="d-table-cell">
@@ -126,28 +154,25 @@
             </div>
         </div>
         <!-- End Preloader -->
-
+        </div>
         <!-- Navbar -->
         <div class="navbar-area fixed-top">
-            <!-- Menu For Mobile Device -->
             <div class="mobile-nav">
-                <a href="#" class="logo">
-                    <img src=logo1.png alt="Logo">
-                </a>
+
             </div>
+
+            <!-- Menu For Mobile Device -->
+
 
             <!-- Menu For Desktop Device -->
             <div class="main-nav">
+
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="#">
-                            <img src="logo1.png" alt="Logo">
-                        </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a href="#" >الرئيسية</a>
-
                                 </li>
                                 <li class="nav-item">
                                     <a href="#we" class="nav-link">من نحن</a>
@@ -173,31 +198,16 @@
         </div>
         <!-- End Navbar -->
 
-
-
-
-
-
-
-
-
         <!-- Banner -->
-        <div class="banner-area banner-img-one">
+        <div class="banner-area banner-img-one" >
             <div class="d-table">
                 <div class="d-table-cell">
                     <div class="container">
                         <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <div class="banner-item">
+                            <div  class="col-lg-6">
+                                <div   class="banner-item">
                                     <div class="banner-left">
-                                        <h1  >  إنه لفخر لنا أن نقاتل <BR> من اجل حلمك  </h1>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="banner-item">
-                                    <div class="banner-right">
-                                        <img class="banner-animation" src="883&755.png" alt="Banner">
+                                            <a href="#contact1" class="main-btn">اطلب خدمة     </a>
                                     </div>
                                 </div>
                             </div>
@@ -224,6 +234,7 @@
 
             
         </div> 
+        
         <!-- End Banner -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
@@ -376,157 +387,12 @@
                 </div>
             </div>
         </section>
-<br>
-<br>
-<br>
-<br> 
-<br> 
 
-
-        <!-- Team -->
-        {{-- <section class="team-area">
-            <div class="container">
-                <div class="section-title">
-                    <span>TEAM MEMBER</span>
-                    <h2>Meet Our Expert Attorneys</h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/home-one/team/1.jpg" alt="Team">
-                            <div class="team-inner">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i class="icofont-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com/" target="_blank">
-                                            <i class="icofont-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank">
-                                            <i class="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <a href="attorney-details.html">Attor. Jerry Hudson</a>
-                                </h3>
-                                <span>Family Consultant</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/home-one/team/2.jpg" alt="Team">
-                            <div class="team-inner">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i class="icofont-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com/" target="_blank">
-                                            <i class="icofont-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank">
-                                            <i class="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <a href="attorney-details.html">Attor. Juho Hudson</a>
-                                </h3>
-                                <span>Criminal Consultant</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/home-one/team/3.jpg" alt="Team">
-                            <div class="team-inner">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i class="icofont-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com/" target="_blank">
-                                            <i class="icofont-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank">
-                                            <i class="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <a href="attorney-details.html">Attor. Sarah Se</a>
-                                </h3>
-                                <span>Divorce Consultant</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="team-item">
-                            <img src="assets/img/home-one/team/4.jpg" alt="Team">
-                            <div class="team-inner">
-                                <ul>
-                                    <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i class="icofont-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i class="icofont-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.twitter.com/" target="_blank">
-                                            <i class="icofont-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.linkedin.com/" target="_blank">
-                                            <i class="icofont-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                                <h3>
-                                    <a href="attorney-details.html">Attor. Aikin Ward</a>
-                                </h3>
-                                <span>Business Consultant</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- End Team --> 
+        <br>
+        <br>
+        <br>
+        <br> 
+        
 
         <!-- Contact Form -->
         <div class="contact-form pb-100">
@@ -564,7 +430,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
+                        <div  id="contact1"class="col-sm-6 offset-sm-3 offset-lg-0 col-lg-4">
                             <div class="location-item">
                                 <div class="location-icon">
                                     <i class="flaticon-call"></i>
@@ -586,14 +452,14 @@
             </div>
             <!-- End Location -->
 
-            {{-- <div class="container-fluid">
+            <div  class="container-fluid">
                 @if(Session::has('success'))
                 <div class="alert alert-success">
                     {{Session::get('success')}}
                 </div>
             @endif
                 
-                    <form method="POST" action="{{ route('contact.us.store') }}" id="contactForm">
+                    <form  method="POST" action="{{ route('contact.us.store') }}" id="contactForm">
                         {{ csrf_field() }}
                     <div class="row contact-wrap">
                         
@@ -658,257 +524,12 @@
                     </div>
                 </form>
             </div>
-        </div> --}}
+        </div>
+
+
         <!-- End Contact Form -->
 
-        <!-- Blog -->
 
-        {{-- <section class="blog-area pt-100">
-            <div class="container">
-                <div class="section-title">
-                    
-                    <h2>المدونة</h2>
-                </div>
-                <div class="blog-slider owl-theme owl-carousel">
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="100.png" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Rights Case</span>
-                            <h3>
-                                <a href="blog-details.html">Justice May For You If You Are Innocent</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/2.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Business Case</span>
-                            <h3>
-                                <a href="blog-details.html">By Whom Your Business Is Being Loss?</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/3.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Criminal Case</span>
-                            <h3>
-                                <a href="blog-details.html">Who Can The Victim A Sue After A Car Accident?</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/1.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Rights Case</span>
-                            <h3>
-                                <a href="blog-details.html">Justice May For You If You Are Innocent</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div> 
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/2.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Business Case</span>
-                            <h3>
-                                <a href="blog-details.html">By Whom Your Business Is Being Loss?</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/3.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Criminal Case</span>
-                            <h3>
-                                <a href="blog-details.html">Who Can The Victim A Sue After A Car Accident?</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/1.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Rights Case</span>
-                            <h3>
-                                <a href="blog-details.html">Justice May For You If You Are Innocent</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/2.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Business Case</span>
-                            <h3>
-                                <a href="blog-details.html">By Whom Your Business Is Being Loss?</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="blog-item">
-                        <a href="blog-details.html">
-                            <img src="assets/img/home-one/blog/3.jpg" alt="Blog">
-                        </a>
-                        <div class="blog-inner">
-                            <span>Criminal Case</span>
-                            <h3>
-                                <a href="blog-details.html">Who Can The Victim A Sue After A Car Accident?</a>
-                            </h3>
-                            <ul>
-                                <li>
-                                    <i class="icofont-calendar"></i>
-                                    20 Feb 2020
-                                </li>
-                                <li>
-                                    <i class="icofont-user-alt-7"></i>
-                                    <a href="#">John Doe</a>
-                                </li>
-                            </ul>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor contratc ut labore.</p>
-                            <a class="blog-link" href="blog-details.html">
-                                Read More
-                                <i class="icofont-simple-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-
-        <!-- End Blog -->
 
         <!-- Footer -->
         <footer>
@@ -917,7 +538,7 @@
             <div class="newsletter-area">
                 <div class="container">
                     <img src="newsletter.png" alt="Shape">
-                    <h2>اشترك في النشرة الإخبارية</h2>
+                    <h2 style="font-family: Aljazeera;">اشترك في النشرة الإخبارية</h2>
                     <form class="newsletter-form" data-toggle="validator">
                         <input type="email" class="form-control" placeholder="ادخل البريد الالكتروني" name="EMAIL" required autocomplete="off">
 
@@ -975,31 +596,31 @@
                                 <h3>خدماتنا  </h3>
                                 <ul>
                                     <li>
-                                        <a href="index.html">
+                                        <a href="#">
                                             <i class="icofont-simple-right"></i>
                                             من نحن 
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="about.html">
+                                        <a href="#">
                                             <i class="icofont-simple-right"></i>
                                              الخدمات القانةنية 
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="blog.html">
+                                        <a href="#">
                                             <i class="icofont-simple-right"></i>
                                             المدونات
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="attorney.html">
+                                        <a href="#">
                                             <i class="icofont-simple-right"></i>
                                             فريق العمل
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="testimonial.html">
+                                        <a href="#">
                                             <i class="icofont-simple-right"></i>
                                             عملائنا 
                                         </a>
@@ -1032,25 +653,16 @@
                 </div>
 
             </div>
-
-
-
-                             
-
-                                      
-
-
-
-
-            
         </footer>
+
+
         <!-- End Footer -->
 
 
-         <!-- Essential JS -->
+        <!-- Essential JS -->
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script> 
-          {{-- {{url()}} --}}
+        {{-- {{url()}} --}}
         <!-- Meanmenu JS -->
         <script src="assets/js/jquery.meanmenu.js"></script>
         <!-- Nice Select JS -->
@@ -1072,89 +684,5 @@
         <script src="assets/js/wow.min.js"></script>
         <!-- Custom JS -->
         <script src="assets/js/custom.js"></script>
-
-
-
-
-
-        <div class="container">
-            <div class="row mt-5 mb-5">
-                <div class="col-10 offset-1 mt-5">
-                    <div class="card">
-                        <div class="card-header bg-primary">
-                            <h3 class="text-white">Laravel Contact US Form Example - ItSolutionStuff.com</h3>
-                        </div>
-                        <div class="card-body">
-      
-                            @if(Session::has('success'))
-                                <div class="alert alert-success">
-                                    {{Session::get('success')}}
-                                </div>
-                            @endif
-                         
-                            <form method="POST" action="{{ route('contact.us.store') }}" id="contactUSForm">
-                                {{ csrf_field() }}
-                                  
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <strong>Name:</strong>
-                                            <input type="text" name="name" class="form-control" placeholder="Name" value="{{ old('name') }}">
-                                            @if ($errors->has('name'))
-                                                <span class="text-danger">{{ $errors->first('name') }}</span>
-                                            @endif
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <strong>Email:</strong>
-                                            <input type="text" name="email" class="form-control" placeholder="Email" value="{{ old('email') }}">
-                                            @if ($errors->has('email'))
-                                                <span class="text-danger">{{ $errors->first('email') }}</span>
-                                            @endif
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <strong>Phone:</strong>
-                                            <input type="text" name="phone" class="form-control" placeholder="Phone" value="{{ old('phone') }}">
-                                            @if ($errors->has('phone'))
-                                                <span class="text-danger">{{ $errors->first('phone') }}</span>
-                                            @endif
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <strong>Subject:</strong>
-                                            <input type="text" name="subject" class="form-control" placeholder="Subject" value="{{ old('subject') }}">
-                                            @if ($errors->has('subject'))
-                                                <span class="text-danger">{{ $errors->first('subject') }}</span>
-                                            @endif
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <strong>Message:</strong>
-                                            <textarea name="message" rows="3" class="form-control">{{ old('message') }}</textarea>
-                                            @if ($errors->has('message'))
-                                                <span class="text-danger">{{ $errors->first('message') }}</span>
-                                            @endif
-                                        </div>  
-                                    </div>
-                                </div>
-                         
-                                <div class="form-group text-center">
-                                    <button class="btn btn-success btn-submit">Submit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </body>
 </html>
